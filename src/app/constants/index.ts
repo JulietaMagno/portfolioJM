@@ -75,12 +75,12 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  // {
-  //   name: "Mongo db",
-  //   Image: "/mongodb.png",
-  //   width: 40,
-  //   height: 40,
-  // },
+  {
+    name: "Mongo db",
+    Image: "/mongodb.png",
+    width: 40,
+    height: 40,
+  },
   {
     name: "Docker",
     Image: "/docker.png",
@@ -89,9 +89,9 @@ export const SkillData = [
   },
   {
     name: "SQL",
-    Image: "/sql-database.svg",
-    width: 80,
-    height: 80,
+    Image: "/sql-database-generic.svg",
+    width: 60,
+    height: 60,
   },
 ];
 
