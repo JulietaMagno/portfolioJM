@@ -1,4 +1,5 @@
 
+import { link } from "fs";
 import { MdHome, MdPhonelink, MdSchool, MdSportsMartialArts } from "react-icons/md";
 
 export const SkillData = [
@@ -114,24 +115,46 @@ export const Socials = [
 ];
 export const Certificates = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Full-stack developer",
+    text: "HTML, CSS, JavaScript, Git & GitHub, React, Redux, Node.js, Express.js, SQL, PostgreSQL, Web Security, Data Structures, Algorithms.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/ffd0f42cce1a44e9a0108b365047a0a6",
+    src: "/c-full-stack.png",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Frontend developer",
+    text: "HTML, CSS, JavaScript, Git & GitHub, Web Design, React, Redux, Build Tools, Data Structures, Algorithms.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/2682884a0719474f96407efe432fdd87",
+    src: "/c-front-end.jpg",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "GitHub",
+    text: "Material in the Learn Git & GitHub Course.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/a8ab218d5950c29861635cc0bf12fd13",
+    src: "/c-github.png",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Nest js developer",
+    text: "NestJS Fundamentals.",
+    href: "",
+    src: "/c-Nestjs.png",
+  },
+  {
+    title: "Typescript developer",
+    text: "Learn Typescrip Course.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/56fb1e71303e37b643bb1905f31c8a09",
+    src: "/c-Typescript.png",
+  },
+  {
+    title: "Docker",
+    text: "Ultimate Docker Course.",
+    href: "https://academia.holamundo.io/certificates/zgqljv4zsn",
+    src: "/c-Docker.png",
+  },
+  {
+    title: "UI/UX desig",
+    text: "Introduction to UI and UX Design Course.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/4ccef8d532484ea2aeec3b3b3dbb4f9c",
+    src: "/c-UI:UX.png",
   },
 ];
 
