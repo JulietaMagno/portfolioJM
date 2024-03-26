@@ -1,6 +1,5 @@
 
-import { link } from "fs";
-import { MdHome, MdPhonelink, MdSchool, MdSportsMartialArts } from "react-icons/md";
+import { MdHome, MdOutlineViewQuilt, MdPhonelink, MdSchool, MdSportsMartialArts } from "react-icons/md";
 
 export const SkillData = [
   {
@@ -101,16 +100,19 @@ export const Socials = [
     name: "Instagram",
     src: "/instagram.svg",
     href: "https://www.instagram.com/juliet_magno/",
+    text: "@juliet_magno",
   },
   {
     name: "Linkedin",
     src: "/linkedin.svg",
     href: "https://www.linkedin.com/in/julietamagnodev/",
+    text: "julietamagnodev",
   },
   {
     name: "Github",
     src: "/github.svg",
     href: "https://github.com/JulietaMagno",
+    text: "JulietaMagno",
   },
 ];
 export const Certificates = [
@@ -158,6 +160,27 @@ export const Certificates = [
   },
 ];
 
+export const Proyects = [
+  {
+    title: "Full-stack developer",
+    text: "HTML, CSS, JavaScript, Git & GitHub, React, Redux, Node.js, Express.js, SQL, PostgreSQL, Web Security, Data Structures, Algorithms.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/ffd0f42cce1a44e9a0108b365047a0a6",
+    src: "/c-full-stack.png",
+  },
+  {
+    title: "Frontend developer",
+    text: "HTML, CSS, JavaScript, Git & GitHub, Web Design, React, Redux, Build Tools, Data Structures, Algorithms.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/2682884a0719474f96407efe432fdd87",
+    src: "/c-front-end.jpg",
+  },
+  {
+    title: "GitHub",
+    text: "Material in the Learn Git & GitHub Course.",
+    href: "https://www.codecademy.com/profiles/julietMagno/certificates/a8ab218d5950c29861635cc0bf12fd13",
+    src: "/c-github.png",
+  },
+];
+
 export const NavLinks = [
   {
     name: "/",
@@ -173,6 +196,11 @@ export const NavLinks = [
     name: "/my-certificates",
     icon: MdSchool,
     link: "/my-certificates",
+  },
+  {
+    name: "/my-proyects",
+    icon: MdOutlineViewQuilt,
+    link: "/my-proyects",
   },
   {
     name: "/contact-me",

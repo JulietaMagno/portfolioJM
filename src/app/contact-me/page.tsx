@@ -11,7 +11,7 @@ const Page = () => {
         style={{ backgroundImage: "url(universo.jpg" }}
         className="h-[60%] w-[80%] relative bg-cover bg-center rounded-xl shadow-xl shadow-pink-600"
       >
-        <div className="absolute left-20 bottom-16 w-[70%] md:w-[30%]">
+        <div className="absolute bottom-20 ml-10 md:ml-20 w-[80%] md:w-[60%]">
           <ContactForm />
         </div>
       </div>
