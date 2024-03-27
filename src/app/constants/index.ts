@@ -168,10 +168,10 @@ export const Proyects = [
     src: "/GithubSearcher.png",
   },
   {
-    title: "WebPage for a Study of Art",
-    text: "Webpage in wordpress for a study of art.",
-    href: "https://chayaestudiodearte.com/",
-    src: "/Chaya.png",
+    title: "DevEx Plataform",
+    text: "Plataform for improvement Developer expirience (frontend).",
+    href: " ",
+    src: "/platform.jpg",
   },
   {
     title: "Profile WebPage",
@@ -180,10 +180,10 @@ export const Proyects = [
     src: "/ProfileJM.png",
   },
   {
-    title: "DevEx Plataform",
-    text: "Plataform for improvement Developer expirience (frontend).",
-    href: " ",
-    src: "/platform.jpg",
+    title: "WebPage for a Study of Art",
+    text: "Webpage in wordpress for a study of art.",
+    href: "https://chayaestudiodearte.com/",
+    src: "/chaya.png",
   },
 ];
 
