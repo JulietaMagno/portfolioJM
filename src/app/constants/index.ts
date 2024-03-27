@@ -162,22 +162,28 @@ export const Certificates = [
 
 export const Proyects = [
   {
-    title: "Full-stack developer",
-    text: "HTML, CSS, JavaScript, Git & GitHub, React, Redux, Node.js, Express.js, SQL, PostgreSQL, Web Security, Data Structures, Algorithms.",
-    href: "https://www.codecademy.com/profiles/julietMagno/certificates/ffd0f42cce1a44e9a0108b365047a0a6",
-    src: "/c-full-stack.png",
+    title: "Github Searcher",
+    text: "Api to search for users in github, made with nextJs.",
+    href: "https://gh-frontend-searcher.vercel.app/",
+    src: "/GithubSearcher.png",
   },
   {
-    title: "Frontend developer",
-    text: "HTML, CSS, JavaScript, Git & GitHub, Web Design, React, Redux, Build Tools, Data Structures, Algorithms.",
-    href: "https://www.codecademy.com/profiles/julietMagno/certificates/2682884a0719474f96407efe432fdd87",
-    src: "/c-front-end.jpg",
+    title: "WebPage for a Study of Art",
+    text: "Webpage in wordpress for a study of art.",
+    href: "https://chayaestudiodearte.com/",
+    src: "/Chaya.png",
   },
   {
-    title: "GitHub",
-    text: "Material in the Learn Git & GitHub Course.",
-    href: "https://www.codecademy.com/profiles/julietMagno/certificates/a8ab218d5950c29861635cc0bf12fd13",
-    src: "/c-github.png",
+    title: "Profile WebPage",
+    text: "Profile Webpage made with nextJs.",
+    href: "https://profile-jm-dev.vercel.app/",
+    src: "/ProfileJM.png",
+  },
+  {
+    title: "DevEx Plataform",
+    text: "Plataform for improvement Developer expirience (frontend).",
+    href: " ",
+    src: "/platform.jpg",
   },
 ];
 

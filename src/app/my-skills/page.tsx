@@ -24,15 +24,16 @@ const Page = () => {
             Tehchnologies
           </h1>
           <p className='text-gray-400 text-[20px]'>
-            Using the latest technologies, I create modern and responsive websites and applications.
+            Every day I learn something new, here are some of the technologies I have worked with.
           </p>
         </div>
         <Swiper
-          slidesPerView={8}
+          slidesPerView={7}
           loop={true}
           autoplay={{
             delay: 0,
-            disableOnInteraction: false
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
           }}
           speed={3000}
           modules={[Autoplay]}
