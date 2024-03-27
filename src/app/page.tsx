@@ -32,7 +32,7 @@ export default function Home() {
             </Link>
             <Link href="/my-proyects" className="rounded-[200px]  bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-lg text-white max-w-[200px] ">
               <div className="rounded-[20px] group relative z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
-              Proyects
+              Projects
             </Link>
             <Link href="/contact-me" className="rounded-[200px]  bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-lg text-white max-w-[200px] ">
               <div className="rounded-[20px] group relative z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
@@ -51,7 +51,7 @@ export default function Home() {
               Certificates
             </Link>
             <Link href="/my-proyects" className="rounded-[200px] bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white max-w-[200px] ">
-              Proyects
+              Projects
             </Link>
             <Link href="/contact-me" className="rounded-[200px] bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white max-w-[200px] ">
               Contact
