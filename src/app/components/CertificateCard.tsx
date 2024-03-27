@@ -47,7 +47,7 @@ const CertificateCard = ({ image, title, text, href}: Props) => {
                     <p className='text-gray-200 text-[12px] md:text-[15px]'>
                         {text}
                     </p>
-                    <button onClick={() => window.open(href, '_blank')} className='bg-white text-black px-3 py-1 rounded-md'>Check certificate</button>
+                    <button onClick={() => window.open(href, '_blank')} className='bg-white text-black px-3 py-1 rounded-md z-10'>Check certificate</button>
                   </div>
             </div>
         </motion.div>
