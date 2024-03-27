@@ -40,7 +40,7 @@ export const Navigation = () => {
                 <Link
                     key={nav.name}
                     href={nav.link}
-                    className='mb-16 pl-4 min-w-[30%]'
+                    className='pl-4 min-w-[30%]'
                 >
                 <nav.icon className={`w-[24px] h-[24px] ${path === nav.name ? "text-pink-600" : "text-white" }`} />
                 </Link>
