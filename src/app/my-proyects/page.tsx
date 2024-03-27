@@ -20,6 +20,7 @@ const Page = () => {
           ))}
         </div>
       </div>
+      <div className='absolute z-[50] -bottom-1 w-full max-h-[80px] rounded-50 flex justify-center bg-opacity-20 py-8'/>
     </div>
   )
 }
