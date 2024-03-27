@@ -43,17 +43,20 @@ export default function Home() {
       </div>
       
       {/* mobile version */}
-          <div className="absolute bottom-40 left-20 w-[60%] grid grid-cols-2 justify-items-strech content-center gap-5 md:hidden">
-            <Link href="/my-skills" className="rounded-[200px] group relative bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white max-w-[200px] ">
-              Skills
+          <div className="absolute bottom-40 left-20 w-[280px] grid grid-cols-2 justify-items-stretch content-center gap-5 md:hidden">
+          <Link href="/my-skills" className="rounded-[200px] group relative bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-md text-white">
+              My skills
             </Link>
-            <Link href="/my-certificates" className="rounded-[200px] bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white max-w-[200px] ">
+            <Link href="/my-certificates" className="rounded-[200px]  bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-md text-white max-w-[200px] ">
+              <div className="rounded-[20px] group relative z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
               Certificates
             </Link>
-            <Link href="/my-proyects" className="rounded-[200px] bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white max-w-[200px] ">
+            <Link href="/my-proyects" className="rounded-[200px]  bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-md text-white max-w-[200px] ">
+              <div className="rounded-[20px] group relative z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
               Projects
             </Link>
-            <Link href="/contact-me" className="rounded-[200px] bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white max-w-[200px] ">
+            <Link href="/contact-me" className="rounded-[200px]  bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-md text-white max-w-[200px] ">
+              <div className="rounded-[20px] group relative z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
               Contact
             </Link>
           </div>
