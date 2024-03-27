@@ -44,10 +44,10 @@ const CertificateCard = ({ image, title, text, href}: Props) => {
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-black opacity-70 z-[-1] shadow-xl shadow-pink-600'/>
                   <div className='flex flex-col gap-10 p-2 z-[30]'>
                     <h1 className='text-white text-xl font-semibold'>{title}</h1>
-                    <p className='text-gray-200 text-[12px] md:text-[15px]'>
+                    <p className='text-gray-200 text-[10px] md:text-[15px]'>
                         {text}
                     </p>
-                    <button onClick={() => window.open(href, '_blank')} className='bg-white text-black px-3 py-1 rounded-md z-[40]'>Check certificate</button>
+                    <button onClick={() => window.open(href, '_blank')} className='bg-white text-black px-2 py-2 rounded-md z-[50]'>Check certificate</button>
                   </div>
             </div>
         </motion.div>
