@@ -22,7 +22,7 @@ const ProyectsCard = ({ image, title, text, href}: Props) => {
   return (
     <div
     onClick={handleFlip}
-    className='w-[320px] h-[190px] md:w-[600px] md:h-[380px] rounded-md cursor-pointer'>
+    className='w-[320px] h-[210px] md:w-[600px] md:h-[380px] rounded-md cursor-pointer'>
         <motion.div
         className='flip-card-inner w-full h-full'
         initial={false}
@@ -40,11 +40,11 @@ const ProyectsCard = ({ image, title, text, href}: Props) => {
             </div>
             <div
             style={{backgroundImage: `url(${image})`}}
-            className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4'>
+            className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-3'>
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-black opacity-70 z-[-1] shadow-xl shadow-pink-600'/>
-                  <div className='flex flex-col gap-10 p-3 z-[30]'>
+                  <div className='flex flex-col gap-10 p-2 z-[30]'>
                     <h1 className='text-white text-xl font-semibold'>{title}</h1>
-                    <p className='text-gray-200 text-[15px]'>
+                    <p className='text-gray-200 text-[12px] md:text-[15px]'>
                         {text}
                     </p>
                     <button onClick={() => window.open(href, '_blank')} className='bg-white text-black px-3 py-1 rounded-md'>Check page</button>
