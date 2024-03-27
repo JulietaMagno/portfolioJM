@@ -16,14 +16,14 @@ const Page = () => {
     >
       <div className='flex flex-col gap-20 max-w-[100%] text-center items-center'>
         <div className='flex flex-col items-center gap-4'>
-          <h1 className='font-semibold text-[50px] text-white'>Skills <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400">
+          <h1 className='font-semibold text-[45px] text-white'>Skills <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400">
               {" "}
               &
               {" "}
             </span>
             Tehchnologies
           </h1>
-          <p className='text-gray-400 text-[20px]'>
+          <p className='text-gray-400 text-[20px] p-2'>
             Every day I learn something new, here are some of the technologies I have worked with.
           </p>
         </div>
