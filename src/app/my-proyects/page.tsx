@@ -7,9 +7,8 @@ import React from 'react';
 const Page = () => {
   return (
     <div 
-    style={{ paddingBottom: '64px' }}
     className='w-screen h-screen flex flex-col items-center justify-center bg-gradient-to-r from-[#2A213D] to-black'>
-      <div className='w-screen flex items-center justify-center overflow-y-auto mt-[100px]'>
+      <div className='w-screen flex items-center justify-center overflow-y-auto mt-[100px] mb-[64px]'>
         <div className='grid grid-cols-1 gap-6 max-w-[93%] max-h-[100%] py-2'>
           {Proyects.map((proyect, index) => (
               <ProyectsCard

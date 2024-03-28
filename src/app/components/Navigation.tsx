@@ -32,7 +32,7 @@ export const Navigation = () => {
 
 
     return (
-        <div className='fixed z-[50] bottom-0 w-full h-[64px] flex justify-center bg-opacity-20 py-5'>
+        <div className='fixed z-[50] bottom-0 w-full h-[64px] flex justify-center bg-pink-700 bg-opacity-20 py-5'>
             <div className='flex justify-center max-w-[400px]'>
             {isRouting && <Transitions />}
             {NavLinks.map((nav) => (

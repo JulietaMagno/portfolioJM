@@ -22,7 +22,7 @@ const CertificateCard = ({ image, title, text, href}: Props) => {
   return (
     <div
     onClick={handleFlip}
-    className='w-[320px] h-[220px] md:w-[450px] md:h-[280px] rounded-md cursor-pointer py-3'>
+    className='w-[320px] h-[220px] md:w-[450px] md:h-[280px] rounded-md cursor-pointer pb-3 mb-10'>
         <motion.div
         className='flip-card-inner w-full h-full'
         initial={false}
