@@ -47,7 +47,7 @@ const ProyectsCard = ({ image, title, text, href}: Props) => {
                     <p className='text-gray-200 text-[12px] md:text-[15px]'>
                         {text}
                     </p>
-                    <button onClick={() => window.open(href, '_blank')} className='bg-gray-300 text-black px-2 py-2 rounded-md hover:bg-white hover:z-50'>Check page</button>
+                    <button onClick={() => window.open(href, '_blank')} className='bg-gray-300 text-black px-2 py-2 rounded-md hover:bg-white hover:z-[60]'>Check page</button>
                   </div>
             </div>
         </motion.div>
