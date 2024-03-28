@@ -42,7 +42,7 @@ const ProyectsCard = ({ image, title, text, href}: Props) => {
             style={{backgroundImage: `url(${image})`}}
             className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-3'>
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-black opacity-70 z-[-1] shadow-xl shadow-pink-600'/>
-                  <div className='flex flex-col gap-10 p-2 z-[30]'>
+                  <div className='flex flex-col gap-6 p-2 z-[30]'>
                     <h1 className='text-white text-xl font-semibold'>{title}</h1>
                     <p className='text-gray-200 text-[12px] md:text-[15px]'>
                         {text}
