@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="w-screen h-screen relative">
       <div className="flex items-center w-full h-full bg-cover bg-center " style={{backgroundImage: "url(/main-bg-pink.jpg"}}>
-        <div className="pl-20 pr-20 md:pl-[14%] pb-40 md:pb-20 flex flex-col gap-5 z-[10] md:max-w-[70%]">
+        <div className="pl-20 pr-10 md:pl-[14%]  pb-40 md:pb-20 flex flex-col gap-5 z-[10] md:max-w-[70%]">
           <h1 className="text-6xl text-white font-semibold hidden md:block">
             Hi there! I'm Julieta Magno 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400">
@@ -12,7 +12,7 @@ export default function Home() {
               Full Stack developer
             </span>
           </h1>
-          <h1 className="text-3xl text-white font-semibold md:hidden sm:block drop-shadow-2xl">
+          <h1 className="text-3xl mb-3 text-white font-semibold md:hidden sm:block drop-shadow-2xl">
             Hi there! I'm Julieta Magno 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-2xl">
               {" "}
@@ -46,7 +46,7 @@ export default function Home() {
       </div>
       
       {/* mobile version */}
-          <div className="absolute bottom-40 left-20 w-[250px] grid grid-cols-2 justify-items-stretch content-center gap-5 md:hidden z-10">
+          <div className="absolute bottom-24 left-20 w-[250px] grid grid-cols-2 justify-items-stretch content-center gap-3 md:hidden z-10">
             <Link href="/my-skills" className="rounded-[200px] group relative bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white">
               My skills
             </Link>
