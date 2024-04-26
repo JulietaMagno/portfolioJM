@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="w-screen h-screen relative">
       <div className="flex items-center w-full h-full bg-cover bg-center " style={{backgroundImage: "url(/main-bg-pink.jpg"}}>
-        <div className="pl-20 pr-20 md:pl-[14%] sm:px-[10%] pb-40 md:pb-20 flex flex-col gap-5 z-[10] md:max-w-[70%]">
+        <div className="pl-20 pr-20 md:pl-[14%] pb-40 md:pb-20 flex flex-col gap-5 z-[10] md:max-w-[70%]">
           <h1 className="text-6xl text-white font-semibold hidden md:block">
             Hi there! I'm Julieta Magno 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400">
@@ -22,7 +22,7 @@ export default function Home() {
           <p className="text-xl text-gray-200 hidden md:block pb-5" >
           I am a designer who is entering the IT world. My background is in Architecture and Urbanism, but life has led me down this new path. I am happy to start walking through this world of creation and infinite learning.
           </p>
-          <p className="text-xl text-gray-200 md:hidden sm:block pb-5" >
+          <p className="text-md text-gray-200 md:hidden sm:block pb-5" >
           I am a designer who is entering the IT world. My background is in Architecture and Urbanism, but life has led me down this new path. I am happy to start walking through this world of creation and infinite learning.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
