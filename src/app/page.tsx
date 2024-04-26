@@ -12,14 +12,17 @@ export default function Home() {
               Full Stack developer
             </span>
           </h1>
-          <h1 className="text-lg text-white font-semibold md:hidden sm:block drop-shadow-2xl">
+          <h1 className="text-3xl text-white font-semibold md:hidden sm:block drop-shadow-2xl">
             Hi there! I'm Julieta Magno 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-2xl">
               {" "}
               Full Stack developer
             </span>
           </h1>
-          <p className="text-2xl text-gray-200 hidden md:block pb-5" >
+          <p className="text-xl text-gray-200 hidden md:block pb-5" >
+          I am a designer who is entering the IT world. My background is in Architecture and Urbanism, but life has led me down this new path. I am happy to start walking through this world of creation and infinite learning.
+          </p>
+          <p className="text-xl text-gray-200 md:hidden sm:block pb-5" >
           I am a designer who is entering the IT world. My background is in Architecture and Urbanism, but life has led me down this new path. I am happy to start walking through this world of creation and infinite learning.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
