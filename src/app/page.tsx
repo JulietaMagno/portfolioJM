@@ -46,7 +46,7 @@ export default function Home() {
       </div>
       
       {/* mobile version */}
-          <div className="absolute bottom-24 left-20 w-[250px] grid grid-cols-2 justify-items-stretch content-center gap-3 md:hidden z-10">
+          <div className="absolute bottom-28 left-20 w-[250px] grid grid-cols-2 justify-items-stretch content-center gap-3 md:hidden z-10">
             <Link href="/my-skills" className="rounded-[200px] group relative bg-pink-600 bg-opacity-70 hover:bg-pink-600 hover:bg-opacity-80 shadow-xl shadow-pink-600/40 hover:shadow-pink-500/50 px-5 py-3 text-sm text-white">
               My skills
             </Link>
